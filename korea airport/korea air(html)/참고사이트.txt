@@ -1,0 +1,15 @@
+google fonts
+https://fonts.google.com/specimen/Poppins
+
+font awesome CDN link
+https://cdnjs.com/libraries/font-awesome
+
+Images / Video / SVG 
+01 - https://www.freepik.com/
+02 - https://storyset.com/
+03 - https://pixabay.com/
+04 - https://unsplash.com/
+05 - https://pixabay.com/
+
+
+https://fontawesome.com/icons/hotel?f=classic&s=solid
