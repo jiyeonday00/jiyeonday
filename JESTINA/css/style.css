@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
 *{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Noto Sans KR', sans-serif;
@@ -45,7 +45,6 @@ section{
     line-height: 3;
 }
 .design .web{
-    margin-left: 1rem;
     width: 800px;
     height: 500px;
     float: left;
@@ -178,55 +177,62 @@ footer .btn a{
         width: 758px;
     }
 }
-@media (max-width:460px){
+@media (max-width: 420px) {
+    *{
+        margin: 0 auto;
+    }
     body{
         width: 100%;
     }
-    .project{
-        width: 460px;
+    .project {
+      width: 350px;
     }
-    .title{
-        width:460px;
+    .title {
+      width: 350px;
     }
-    .title h1{
-        text-align: center;
-        padding-left: 1rem;
-        font-size: 40px;
+    .title h1 {
+      text-align: center;
+      padding-left: 1rem;
+      font-size: 25px;
     }
-    .image img{
-        width: 440px;
+    .concept {
+      width: 350px;
+      padding-top: 1rem;
     }
-    .concept{
-        width: 460px;
-        padding-top: 1rem;
+    .design {
+      width: 350px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
     }
-    .concept img{
-        width: 100%;
+    .design h1 {
+      text-align: initial;
+      font-size: 2rem;
+      padding-left: 1rem;
     }
-    .design{
-        width: 460px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 2rem;
+    .design .web {
+      height: 500px;
+      width: 290px;
+      float: none;
+      margin-left: 2rem;
     }
-    .design h1{
-        text-align: center;
-    }
-    .design .web{
-        width: 460px;
-        float: none;
-    }
+    .design .mobile {
+      height: 500px;
+      width: 290px;
+      margin-left: 2rem;
 
-    .design .mobile{
-        width: 400px;
-        height: 350px;
     }
-
-    footer{
-        width: 460px;
+    .footer {
+      width: 350px;
+      padding-top:30px;
     }
-}
   
+    .btn{
+      width: 5rem;
+      height: 3rem;
+      padding: 5px;
+    }
+  }
 
 
