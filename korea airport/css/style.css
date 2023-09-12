@@ -180,6 +180,9 @@ footer .btn a{
 }
 
 @media (max-width: 420px) {
+    body{
+        width: 100%;
+    }
     .project {
       width: 350px;
     }
