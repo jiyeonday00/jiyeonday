@@ -8,7 +8,7 @@
 }
 
 body{
-    width: 100%;
+    width: 1200px;
     margin: auto;
 }
 
@@ -28,7 +28,7 @@ header{
 
 section{
     height: auto;
-    width: 100%;
+    width: 1200px;
     overflow: hidden;
 }
 
